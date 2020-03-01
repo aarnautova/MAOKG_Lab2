@@ -103,8 +103,8 @@ public class House extends JPanel implements ActionListener {
         prepareBackground(g2d);
             drawFrame(g2d);
         g2d.translate(maxWidth/2, maxHeight/2);
-        g2d.translate(tx, ty);
-            g2d.scale(scale, 0.99);
+        //g2d.translate(tx, ty);
+            //g2d.scale(scale, 0.99);
 
         drawRoof(g2d);
         drawHouse(g2d);
